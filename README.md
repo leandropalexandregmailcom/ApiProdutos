@@ -1,15 +1,3 @@
-O projeto consiste em uma api rest autenticação e cadastro de usuários e crud de produtos e categorias.
-A senha e o nome do banco de dados pode ser configurada no arquivo .env.
-Após baixar o projeto execute os seguintes comandos:
-1- composer install.
-2- php artisan migrate
-3- php artisan generate:key
-4- php artisan passport install
-
- Depois de executar os comandos acima o sistema já deverá funcionar em um servidor php.
- A autenticação utiliza o laravel passport, a documentação dessa biblioteca pode ser conferida em:https://laravel.com/docs/8.x/passport
- As validações de criação e atualização de categorias e produtos estão nas classes de RequestValidate.
- 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

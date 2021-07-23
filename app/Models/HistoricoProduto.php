@@ -5,15 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Imagem extends Model
+class HistoricoProduto extends Model
 {
     use HasFactory;
 
-    protected $table = 'imagem';
-    protected $primaryKey = 'id_imagem';
+    protected $table = 'historico_produto';
+    protected $primaryKey = 'id_historico_produto';
     protected $foreignKey = 'id_produto';
 
-    protected $fillable = ['id_imagem', 'nome', 'id_produto', 'updated_at', 'deleted_at'];
+    protected $fillable = ['id_historico_produto', 'id_produto', 'updated_at', 'deleted_at'];
 
     public function produto()
     {

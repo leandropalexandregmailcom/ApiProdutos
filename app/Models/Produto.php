@@ -23,4 +23,9 @@ class Produto extends Model
     {
         return $this->belongsTo(Categoria::class);
     }
+
+    public function historico()
+    {
+        return $this->hasMany(HistoricoProduto::class);
+    }
 }
